@@ -11,7 +11,7 @@
         name="viewport"
         content="width=device-width, initial-scale=1, maximum-scale=1"
       />
-      <title>服务器详情 |  MC服务器</title>
+      <title>商店 |  MC服务器</title>
   <meta name="generator" content="hexo-theme-ayer">
        
 <link rel="stylesheet" href="/dist/main.css">
@@ -51,8 +51,8 @@
     <main class="content on">
       <section class="outer">
   <article
-  id="post-My-New-Post"
-  class="article article-type-post"
+  id="page-"
+  class="article article-type-page"
   itemscope
   itemprop="blogPost"
   data-scroll-reveal
@@ -62,45 +62,90 @@
     <header class="article-header">
        
 <h1 class="article-title sea-center" style="border-left:0" itemprop="name">
-  服务器详情
+  商店
 </h1>
  
 
       
     </header>
-     
-    <div class="article-meta">
-      <a href="/2025/09/21/My-New-Post/" class="article-date">
-  <time datetime="2025-09-21T08:33:44.833Z" itemprop="datePublished">2025-09-21</time>
-</a>   
-<div class="word_count">
-    <span class="post-time">
-        <span class="post-meta-item-icon">
-            <i class="ri-quill-pen-line"></i>
-            <span class="post-meta-item-text"> Word count:</span>
-            <span class="post-count">10</span>
-        </span>
-    </span>
-
-    <span class="post-time">
-        &nbsp; | &nbsp;
-        <span class="post-meta-item-icon">
-            <i class="ri-book-open-line"></i>
-            <span class="post-meta-item-text"> Reading time≈</span>
-            <span class="post-count">1 min</span>
-        </span>
-    </span>
-</div>
- 
-    </div>
-      
-
-
-
-  
+       
     <div class="article-entry" itemprop="articleBody">
        
-  <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">服务器地址:mc.nb6.lol:14894</span><br></pre></td></tr></table></figure>
+  <hr>
+<!-- 在这里插入我们的代码 -->
+
+<style>
+  /* 1. 定义容器的样式 */
+  .square-container {
+    display: flex;                 /* 使用 Flexbox 布局 */
+    justify-content: center;       /* 水平居中对齐 */
+    align-items: center;           /* 垂直居中对齐 */
+    gap: 30px;                     /* 正方形之间的间距 */
+    margin: 50px auto;             /* 容器上下外边距为 50px，左右自动（居中） */
+    max-width: 1200px;             /* 限制容器的最大宽度，防止在大屏幕上太分散 */
+    padding: 20px;                 /* 容器内边距 */
+  }
+
+  /* 2. 定义单个正方形的通用样式 */
+  .feature-square {
+    width: 250px;                  /* 正方形的宽度 */
+    height: 250px;                 /* 正方形的高度 */
+    background-color: #ffffff;     /* 正方形的背景色 */
+    border-radius: 15px;           /* 圆角的大小 */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* 阴影效果 */
+    display: flex;                 /* 在正方形内部也使用 Flexbox */
+    flex-direction: column;        /* 内部元素垂直排列 */
+    justify-content: center;       /* 内部内容垂直居中 */
+    align-items: center;           /* 内部内容水平居中 */
+    text-align: center;            /* 文本居中 */
+    padding: 20px;                 /* 正方形的内边距 */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* 添加过渡效果，让悬停动画更平滑 */
+  }
+
+  /* 3. 鼠标悬停时的效果（可选，但推荐） */
+  .feature-square:hover {
+    transform: translateY(-5px);   /* 向上移动 5px */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* 阴影变大变深 */
+  }
+
+  /* 4. 定义正方形内标题的样式 */
+  .feature-square h3 {
+    margin: 0 0 15px 0;            /* 标题的外边距 */
+    color: #333;                   /* 标题颜色 */
+    font-size: 1.5em;              /* 标题字体大小 */
+  }
+
+  /* 5. 定义正方形内段落的样式 */
+  .feature-square p {
+    margin: 0;                     /* 段落的外边距 */
+    color: #666;                   /* 段落文字颜色 */
+    font-size: 1em;                /* 段落字体大小 */
+  }
+</style>
+
+<div class="square-container">
+  <!-- 第一个正方形 -->
+  <div class="feature-square">
+    <h3>技能</h3>
+    <p>精通 JavaScript, Python, CSS</p>
+  </div>
+
+  <!-- 第二个正方形 -->
+  <div class="feature-square">
+    <h3>爱好</h3>
+    <p>阅读、旅行、摄影和分享知识</p>
+  </div>
+
+  <!-- 第三个正方形 -->
+  <div class="feature-square">
+    <h3>目标</h3>
+    <p>成为一名优秀的全栈开发者</p>
+  </div>
+</div>
+
+<!-- 代码结束 -->
+
+<hr>
  
       <!-- reward -->
       
@@ -153,7 +198,7 @@
     <a class="modal-close" href="javascript:;"><i class="ri-close-circle-line"></i></a>
     <p>扫一扫，分享到微信</p>
     <div class="wx-qrcode">
-      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/2025/09/21/My-New-Post/" alt="微信分享二维码">
+      <img src="//api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://example.com/about/" alt="微信分享二维码">
     </div>
 </div>
 
@@ -165,15 +210,6 @@
   
    
   
-   
-    <script src="https://cdn.staticfile.org/twikoo/1.4.18/twikoo.all.min.js"></script>
-    <div id="twikoo" class="twikoo"></div>
-    <script>
-        twikoo.init({
-            envId: ""
-        })
-    </script>
- 
 </article>
 
 </section>
@@ -281,22 +317,6 @@
 <script src="/js/lazyload.min.js"></script>
 
 <!-- Tocbot -->
- 
-<script src="/js/tocbot.min.js"></script>
-
-<script>
-  tocbot.init({
-    tocSelector: ".tocbot",
-    contentSelector: ".article-entry",
-    headingSelector: "h1, h2, h3, h4, h5, h6",
-    hasInnerContainers: true,
-    scrollSmooth: true,
-    scrollContainer: "main",
-    positionFixedSelector: ".tocbot",
-    positionFixedClass: "is-position-fixed",
-    fixedSidebarOffset: "auto",
-  });
-</script>
 
 <script src="https://cdn.staticfile.org/jquery-modal/0.9.2/jquery.modal.min.js"></script>
 <link
